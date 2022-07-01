@@ -1,0 +1,12 @@
+[programs.devnet]
+wallet_profile = "Cg9B3hHWRqMUMbW6dw2v3gzL2gKSgJVcsV6GA64xnEdK"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/root/wallet-profile/key.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
