@@ -100,7 +100,7 @@ function Main() {
             />
         )}
         
-          {!created && (
+          {created === false && (
             <CreatePost
             blog={blog}
             blogAccount={blogAddress.pda}
